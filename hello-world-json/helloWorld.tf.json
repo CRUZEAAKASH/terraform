@@ -1,7 +1,7 @@
 {
-    "output" : {
-        "hello1" :{
-            "value" : "Hello World12345"
+    "output": {
+        "hello1": {
+            "value": "Hello World12345"
         }
     }
 }
