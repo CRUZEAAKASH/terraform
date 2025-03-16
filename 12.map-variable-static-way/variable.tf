@@ -1,5 +1,5 @@
 variable "usersAge" {
-  type = map(any)
+  type = map
   default = {
     gaurav = 20
     saurav = 19
