@@ -13,3 +13,5 @@
 //13. export TF_VAR_username=Aakash ==> to create terrform compatible env variables... terraform will be able to read this
 //14. terraform refresh ===> this command will refresh terraform.tfstate file.. and will pull the latest resource status
 //15. terraform show ===> to show tfstate file in command line
+//16. terraform console ==> this will give us a console.. where we can access all the vairables and tfstate values directly
+//17. terraform fmt ==> this will format the code to proper structure
