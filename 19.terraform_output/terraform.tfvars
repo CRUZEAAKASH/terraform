@@ -1,1 +1,1 @@
-GITHUB_PAT_TOKEN = "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"
+GITHUB_PAT_TOKEN = "abcdefghijklmno"
