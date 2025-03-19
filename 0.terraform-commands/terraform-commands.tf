@@ -15,3 +15,15 @@
 //15. terraform show ===> to show tfstate file in command line
 //16. terraform console ==> this will give us a console.. where we can access all the vairables and tfstate values directly
 //17. terraform fmt ==> this will format the code to proper structure
+//18. terraform providers ==> this will list all the providers used in our tf file
+
+
+
+//Sequence of command will be:
+//1. terraform fmt
+//2. terraform providers
+//3. terraform plan
+//4. terraform init
+//5. terraform plan
+//6. terraform apply
+//7. terraform destroy
