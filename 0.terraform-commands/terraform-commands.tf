@@ -16,6 +16,7 @@
 //16. terraform console ==> this will give us a console.. where we can access all the vairables and tfstate values directly
 //17. terraform fmt ==> this will format the code to proper structure
 //18. terraform providers ==> this will list all the providers used in our tf file
+//19.
 
 
 
