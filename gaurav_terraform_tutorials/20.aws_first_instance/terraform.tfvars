@@ -1,5 +1,0 @@
-ami               = "ami-05c179eced2eb9b5b"
-instance_type     = "t2.micro"
-tags_name         = "first-instance-from-tf"
-subnet_id         = "subnet-04a5555f66da39c31"
-security_group_id = "sg-0007eaf67169cc638"
