@@ -1,9 +1,9 @@
-// 1. terraform validate ==> checks the syntatical error
-// 2. terraform plan ==> Gives information what changes will happen
-// 3. terraform init ==> downloads the plugin data
-// 4. terraform apply ==> applies whatever changes which we want
-// 5. terraform apply --auto-approve ==> applies changes and doesn't ask for approval every time
-// 6. terraform destroy ==> destorys the infrastructure which we have created
+// 1. terraform validate                            ==> checks the syntatical error
+// 2. terraform plan                                ==> Gives information what changes will happen
+// 3. terraform init                                ==> downloads the plugin data
+// 4. terraform apply                               ==> applies whatever changes which we want
+// 5. terraform apply --auto-approve                ==> applies changes and doesn't ask for approval every time
+// 6. terraform destroy                             ==> destorys the infrastructure which we have created
 // 7. terraform destroy -<resourceName>.<resourceLocalNameInTerraformFile>
 // 8. terraform plan -var "username=Aakash" ==> passess the variable to plan command during run time
 // 9. terraform plan -var "username=Aakash" -var "age=20" ===> passes multiple variables to the plan command
@@ -16,7 +16,10 @@
 //16. terraform console ==> this will give us a console.. where we can access all the vairables and tfstate values directly
 //17. terraform fmt ==> this will format the code to proper structure
 //18. terraform providers ==> this will list all the providers used in our tf file
-//19.
+//19. terraform providers mirror <new Directory Path> ====> this will copy all the provier configuration to a new path
+//20. terraform output ====> to print the output of all the variables
+//21. terraform output <variableName> ===> to print the output of a specified variable name
+//22. terraform graph ==> this will generate a json graph
 
 
 

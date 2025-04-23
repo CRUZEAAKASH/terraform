@@ -8,7 +8,8 @@ resource "local_file" "pet" {
 }
 
 resource "random_pet" "my-pet" {
-  prefix    = var.prefix
-  separator = var.separator
-  length    = var.length
+  prefix     = var.prefix
+  separator  = var.separator
+  length     = var.length
+  depends_on = [local_file.pet]
 }
