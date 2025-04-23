@@ -7,4 +7,4 @@ variable "usersAge" {
 }
 
 // TO define env variables.. use command like
-// TF_VAR_<variableName>=<variableValue>
+// export TF_VAR_<variableName>=<variableValue>

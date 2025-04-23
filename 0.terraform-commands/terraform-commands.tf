@@ -22,8 +22,8 @@
 
 //Sequence of command will be:
 //1. terraform fmt
-//2. terraform providers
-//3. terraform plan
+//2. terraform validate
+//3. terraform providers
 //4. terraform init
 //5. terraform plan
 //6. terraform apply
