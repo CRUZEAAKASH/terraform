@@ -19,7 +19,7 @@
 //19. terraform providers mirror <new Directory Path> ====> this will copy all the provier configuration to a new path
 //20. terraform output ====> to print the output of all the variables
 //21. terraform output <variableName> ===> to print the output of a specified variable name
-//22. terraform graph -type=plan | dot -Tsvg >graph.svg ==> this will generate a graph in dot format... and then will store this in a svg format...
+//22. terraform graph -type=plan  -draw-cycles | dot -Tsvg >graph.svg ==> this will generate a graph in dot format... and then will store this in a svg format...
 
 
 
