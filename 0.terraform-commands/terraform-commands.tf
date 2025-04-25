@@ -31,3 +31,11 @@
 //5. terraform plan
 //6. terraform apply
 //7. terraform destroy
+
+
+//LifeCycle Rules:
+//1. Option 1 - create_before_destory : true ===> this will force terraform to first create a new resource, and then only delete the existing one
+//2. Option 2 - prevent_Destory : true       ===> this will prevent terraform from deleting any existing resource
+//3. Option 3 - ignore _changes : all        ===> this will tell terraform to ignore all the changes.. so on running terraform plan you will not see
+//                                                 any change
+
