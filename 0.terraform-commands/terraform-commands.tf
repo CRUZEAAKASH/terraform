@@ -25,6 +25,16 @@
 //25. terraform state mv [options] source destination   ====> to move the backend tfstate items
 //26. terraform state pull ====> to pull the items of tfstate file present at the remote location
 //27. terraform state rm  =====> to remove items from the remote tfstate file... remembe to remove the config files manully later on..
+//28. terraform taint <resource> ====> this will mark the resource as tainted.. and on next plan and apply command.. it wil destroy the existing resource and will recreate it
+//29. terraform untaint <resource> ===> this will mark the resource as untainted.... and on the next plan and apply command.. it will keep the infra as it is
+//30. export TF_LOG={Enter Logging Level} ====> you can enter any value from INFO , WARNING , ERROR , DEBUG , TRACE to get the appropriate level of debugging
+//31. export TF_LOG_PATH={Eneter file location}  ====> Need to enter the file path where the logs will be stored
+//32. terraform import <resource_type>.<resource_name> <resource_id>    ====> this will import resource to be managed by Terraform
+//33. terraform workspace new ProjectB  ======> this will create a new terraform workspace B
+//34. terraform workspace select ProjectA =====> this will switch to project A
+//35. terraform workspace list ======> to list all the workspace present
+
+
 
 
 //Sequence of command will be:
