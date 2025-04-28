@@ -20,7 +20,11 @@
 //20. terraform output ====> to print the output of all the variables
 //21. terraform output <variableName> ===> to print the output of a specified variable name
 //22. terraform graph -type=plan  -draw-cycles | dot -Tsvg >graph.svg ==> this will generate a graph in dot format... and then will store this in a svg format...
-
+//23. terraform state list [options] [address]   ===> this is to list all the resources being managed by terraform... local or remote doesn't matter
+//24. terraform state show <resourceName          ===> to show all the attributes of a reesource being tracked by terraform state
+//25. terraform state mv [options] source destination   ====> to move the backend tfstate items
+//26. terraform state pull ====> to pull the items of tfstate file present at the remote location
+//27. terraform state rm  =====> to remove items from the remote tfstate file... remembe to remove the config files manully later on..
 
 
 //Sequence of command will be:
