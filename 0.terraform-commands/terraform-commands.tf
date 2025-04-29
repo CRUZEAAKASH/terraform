@@ -11,7 +11,7 @@
 //11. terraform plan -var 'usersAge={"aakash":20 , "gaurav":25}' ==> passes variable's value in map format
 //12. terraform plan -var-file=development.tfvars  ==> to pass custom tfvars file
 //13. export TF_VAR_username=Aakash ==> to create terrform compatible env variables... terraform will be able to read this
-//14. terraform refresh ===> this command will refresh terraform.tfstate file.. and will pull the latest resource status
+//14. terraform refresh ===> this command will refresh terraform.tfstate file.. and will pull the latest resource status. this is deprecated
 //15. terraform show ===> to show tfstate file in command line
 //16. terraform console ==> this will give us a console.. where we can access all the vairables and tfstate values directly
 //17. terraform fmt ==> this will format the code to proper structure
@@ -33,6 +33,10 @@
 //33. terraform workspace new ProjectB  ======> this will create a new terraform workspace B
 //34. terraform workspace select ProjectA =====> this will switch to project A
 //35. terraform workspace list ======> to list all the workspace present
+//36. terraform force-unlock    ======> to disable the lock incase process is terminated unexpectdly without releasing the lock
+//37. terraform init --backend-config=nonProd.conf    ====> this is done to set the backend with the propoerties defined in the conf file
+//38. terraform plan -refresh-only ======> to determine the drift between the state file and the actual configuration. this will show the changes which can be applied into tfstate file
+//39. terraform apply -refresh-only ====> to apply the changes only in the .tfstate file
 
 
 
