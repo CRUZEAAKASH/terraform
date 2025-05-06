@@ -37,6 +37,7 @@
 //37. terraform init --backend-config=nonProd.conf    ====> this is done to set the backend with the propoerties defined in the conf file
 //38. terraform plan -refresh-only ======> to determine the drift between the state file and the actual configuration. this will show the changes which can be applied into tfstate file
 //39. terraform apply -refresh-only ====> to apply the changes only in the .tfstate file
+//40. terraform plan -generate-config-out=<new-file--name> ===> this will generate a new file with the changes which will generate the resource block to the new file.
 
 
 
