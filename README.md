@@ -1,3 +1,5 @@
+## This repo contains terraform commands and practise files created while learning Terraform from Youtube's Gaurav Sharma video
+
 Terraform Architecture
 
 ![alt text](image.png)
