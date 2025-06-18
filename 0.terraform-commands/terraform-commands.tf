@@ -43,10 +43,10 @@
 
 
 //Sequence of command will be:
-//1. terraform fmt
-//2. terraform validate
-//3. terraform providers
-//4. terraform init
+//1. terraform init
+//2. terraform fmt
+//3. terraform validate
+//4. terraform providers 
 //5. terraform plan
 //6. terraform apply
 //7. terraform destroy
